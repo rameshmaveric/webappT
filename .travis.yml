@@ -1,0 +1,22 @@
+language: java
+jdk:
+  - oraclejdk8
+deploy:
+  provider: bluemixcloudfoundry
+  skip_cleanup: true
+  manifest: manifest.yml
+  username: rameshuser123@gmail.com
+  password: Tango@123
+  organization: SaganCore
+  space: Sagan_Core
+  on:
+    branch: master
+notifications:
+  webhooks:
+     urls:
+      - https://github.com/rameshmaveric/weblogic-deployer-ex.git
+
+  
+      
+   
+
