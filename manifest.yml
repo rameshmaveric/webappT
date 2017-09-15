@@ -1,7 +1,7 @@
 applications:
 - buildpack: https://github.com/cloudfoundry/java-buildpack
 - path: /target/webAppforJenkins.war
-- name: webappDepolyment
+- name: webappT
   memory: 256M
   instances: 1
   domain: mybluemix.net
