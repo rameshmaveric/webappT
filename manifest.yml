@@ -1,6 +1,6 @@
 applications:
 - buildpack: https://github.com/cloudfoundry/java-buildpack
-- path: .
+- path: /target/webAppforJenkins.war
 - name: webappDepolyment
   memory: 256M
   instances: 1
